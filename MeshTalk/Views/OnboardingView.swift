@@ -2,9 +2,9 @@ import SwiftUI
 
 struct OnboardingView: View {
     @EnvironmentObject var audioManager: BackgroundAudioManager
-    @AppStorage("isOnboarded") private var isOnboarded = false
+    @AppStorage("meshtalk_onboarded") private var isOnboarded = false
 
-    @State private var serverAddress: String = "ws://localhost:8080"
+    @State private var serverAddress: String = "10.0.200.221"
     @State private var selectedChannel: String = "alpha"
     @State private var userName: String = ""
     @State private var isConnecting = false
