@@ -1,0 +1,199 @@
+{
+  "" : {
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshTalk-primary.dia",
+    "emit-module-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshTalk-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshTalk-primary-emit-module.dia",
+    "pch" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshTalk-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshTalk-primary.swiftdeps"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/Audio/AudioEngine.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/AudioEngine.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/AudioEngine.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/AudioEngine.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/AudioEngine.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/AudioEngine.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/AudioEngine.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/AudioEngine.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/AudioEngine~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/Audio/OpusCodec.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OpusCodec.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OpusCodec.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OpusCodec.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OpusCodec.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OpusCodec.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OpusCodec.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OpusCodec.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OpusCodec~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/Audio/VoxDetector.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/VoxDetector.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/VoxDetector.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/VoxDetector.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/VoxDetector.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/VoxDetector.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/VoxDetector.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/VoxDetector.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/VoxDetector~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/ContentView.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/Haptics/HapticManager.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/HapticManager.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/HapticManager.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/HapticManager.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/HapticManager.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/HapticManager.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/HapticManager.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/HapticManager.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/HapticManager~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/MeshTalkApp.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshTalkApp.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshTalkApp.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshTalkApp.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshTalkApp.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshTalkApp.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshTalkApp.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshTalkApp.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshTalkApp~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/Models/MeshConfig.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshConfig.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshConfig.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshConfig.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshConfig.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshConfig.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshConfig.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshConfig.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshConfig~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/Network/MeshBridgeClient.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshBridgeClient.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshBridgeClient.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshBridgeClient.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshBridgeClient.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshBridgeClient.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshBridgeClient.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshBridgeClient.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/MeshBridgeClient~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/Network/WebSocketClient.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/WebSocketClient.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/WebSocketClient.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/WebSocketClient.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/WebSocketClient.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/WebSocketClient.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/WebSocketClient.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/WebSocketClient.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/WebSocketClient~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/Service/BackgroundAudioManager.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/BackgroundAudioManager.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/BackgroundAudioManager.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/BackgroundAudioManager.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/BackgroundAudioManager.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/BackgroundAudioManager.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/BackgroundAudioManager.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/BackgroundAudioManager.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/BackgroundAudioManager~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/Theme/DesignSystem.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/DesignSystem.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/DesignSystem.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/DesignSystem.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/DesignSystem.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/DesignSystem.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/DesignSystem.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/DesignSystem.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/DesignSystem~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/Views/ControlBarView.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/ControlBarView.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/ControlBarView.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/ControlBarView.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/ControlBarView.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/ControlBarView.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/ControlBarView.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/ControlBarView.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/ControlBarView~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/Views/OnboardingView.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OnboardingView.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OnboardingView.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OnboardingView.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OnboardingView.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OnboardingView.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OnboardingView.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OnboardingView.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OnboardingView~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/Views/OrganicWaveView.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OrganicWaveView.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OrganicWaveView.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OrganicWaveView.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OrganicWaveView.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OrganicWaveView.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OrganicWaveView.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OrganicWaveView.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/OrganicWaveView~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/Views/PTTButtonView.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/PTTButtonView.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/PTTButtonView.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/PTTButtonView.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/PTTButtonView.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/PTTButtonView.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/PTTButtonView.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/PTTButtonView.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/PTTButtonView~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/Views/PeerIndicatorView.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/PeerIndicatorView.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/PeerIndicatorView.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/PeerIndicatorView.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/PeerIndicatorView.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/PeerIndicatorView.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/PeerIndicatorView.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/PeerIndicatorView.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/PeerIndicatorView~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/Views/SettingsView.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/SettingsView.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/SettingsView.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/SettingsView.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/SettingsView~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/MeshTalk/Views/WaveformView.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/WaveformView.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/WaveformView.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/WaveformView.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/WaveformView.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/WaveformView.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/WaveformView.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/WaveformView.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/WaveformView~partial.swiftmodule"
+  },
+  "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/vincent/meshtalk-ios/build/MeshTalk.build/Debug-iphoneos/MeshTalk.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

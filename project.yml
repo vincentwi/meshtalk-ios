@@ -1,0 +1,54 @@
+name: MeshTalk
+options:
+  bundleIdPrefix: com.openclaw
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+  defaultConfig: Release
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    CODE_SIGN_IDENTITY: ""
+    CODE_SIGNING_REQUIRED: "NO"
+    CODE_SIGNING_ALLOWED: "YES"
+
+targets:
+  MeshTalk:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: MeshTalk
+        excludes:
+          - "**/.DS_Store"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.openclaw.meshtalk
+        INFOPLIST_FILE: MeshTalk/Info.plist
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_VERSION: "6.0"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+        PROVISIONING_PROFILE_SPECIFIER: ""
+        ENABLE_USER_SCRIPT_SANDBOXING: "NO"
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks"
+      configs:
+        Debug:
+          SWIFT_OPTIMIZATION_LEVEL: "-Onone"
+          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "DEBUG"
+        Release:
+          SWIFT_OPTIMIZATION_LEVEL: "-O"
+    info:
+      path: MeshTalk/Info.plist
+      properties:
+        NSMicrophoneUsageDescription: "MeshTalk needs microphone access for walkie-talkie communication"
+        NSLocalNetworkUsageDescription: "MeshTalk connects to the mesh bridge on your local network"
+        UIBackgroundModes:
+          - audio
+          - bluetooth-central
+        ITSAppUsesNonExemptEncryption: false

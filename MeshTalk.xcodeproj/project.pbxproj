@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078BC3A419470E0DD7DEA74C /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D735AB4E928111889A4FBC /* DesignSystem.swift */; };
+		0872CA5ABE40A2F3680945FE /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F849CE54FBDD11D85805EFAF /* HapticManager.swift */; };
+		2B9DFC901A1ADD1B39D73146 /* MeshTalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B85BC65D4748AE7A495B400 /* MeshTalkApp.swift */; };
+		3DA51DF6E60A02D831FF4CB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EDC34DA25199B0521CB5CB /* ContentView.swift */; };
+		481A18FA8428C9EE3A57803B /* PTTButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0A538ADF4ED199E71DD4CF /* PTTButtonView.swift */; };
+		4A3DDD6E5CBACF7CE01DF51E /* VoxDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D880C1135F0A90795E6A12 /* VoxDetector.swift */; };
+		5629495D0FAA4EE85224CA63 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7129BD57FEC1ED1BE79F989 /* SettingsView.swift */; };
+		6065C75985D4D4EE16AB66C0 /* WebSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53281635661B806145C21E55 /* WebSocketClient.swift */; };
+		79B5E9D7B515D80C9F716DD2 /* PeerIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC7086E8BC13E75720E902A /* PeerIndicatorView.swift */; };
+		7B405E34A8BA1CF24793F7F1 /* MeshConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEE649A9E6304515A0B8029 /* MeshConfig.swift */; };
+		9C8BDF05D5C8DBE57092C799 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A0927092BBF1CC9BFD6148 /* AudioEngine.swift */; };
+		9E77940B86AAAEFA8D5B74BF /* BackgroundAudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A6B1059316B619F95DAEA4 /* BackgroundAudioManager.swift */; };
+		A7C2E0C524EF4815211C120A /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F7A9671AF25438E90CE1D2 /* WaveformView.swift */; };
+		B881DCE139747143B363DA1B /* ControlBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEBC4B7434758CD9FA13E4D /* ControlBarView.swift */; };
+		C2CB31846FF9D182A6526434 /* OpusCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C8B4BF039EECA179715BF1 /* OpusCodec.swift */; };
+		C5BBD5BA61B55077A9DFDBEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD24A827EAD3CB36FD8833F3 /* Assets.xcassets */; };
+		CB2D0964AFD4CA31BF7A6581 /* MeshBridgeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43DFDC74B28D1953BD1F37 /* MeshBridgeClient.swift */; };
+		D07E4B262DB8293022488AE3 /* OrganicWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63101C7B55FE65FF84CE7BA3 /* OrganicWaveView.swift */; };
+		EEABA85EADE61DBB5E20C4DD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF377D7D062CD989DFA1E9A /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FEE649A9E6304515A0B8029 /* MeshConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshConfig.swift; sourceTree = "<group>"; };
+		3FEBC4B7434758CD9FA13E4D /* ControlBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlBarView.swift; sourceTree = "<group>"; };
+		49C8B4BF039EECA179715BF1 /* OpusCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusCodec.swift; sourceTree = "<group>"; };
+		53281635661B806145C21E55 /* WebSocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketClient.swift; sourceTree = "<group>"; };
+		59D735AB4E928111889A4FBC /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		63101C7B55FE65FF84CE7BA3 /* OrganicWaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganicWaveView.swift; sourceTree = "<group>"; };
+		68C124F6919017075673C5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6E0A538ADF4ED199E71DD4CF /* PTTButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTTButtonView.swift; sourceTree = "<group>"; };
+		6FC7086E8BC13E75720E902A /* PeerIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerIndicatorView.swift; sourceTree = "<group>"; };
+		8BF377D7D062CD989DFA1E9A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8C43DFDC74B28D1953BD1F37 /* MeshBridgeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshBridgeClient.swift; sourceTree = "<group>"; };
+		9B85BC65D4748AE7A495B400 /* MeshTalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshTalkApp.swift; sourceTree = "<group>"; };
+		B5A0927092BBF1CC9BFD6148 /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		C7129BD57FEC1ED1BE79F989 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CD24A827EAD3CB36FD8833F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE26A96DAC34C3DF5AAB9B13 /* MeshTalk.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MeshTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F7A9671AF25438E90CE1D2 /* WaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformView.swift; sourceTree = "<group>"; };
+		D3D880C1135F0A90795E6A12 /* VoxDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoxDetector.swift; sourceTree = "<group>"; };
+		D7EDC34DA25199B0521CB5CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4A6B1059316B619F95DAEA4 /* BackgroundAudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAudioManager.swift; sourceTree = "<group>"; };
+		F849CE54FBDD11D85805EFAF /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3A0595C340C8DF68C3230729 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F4A6B1059316B619F95DAEA4 /* BackgroundAudioManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4401E3775BC0ED583C418A99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FEE649A9E6304515A0B8029 /* MeshConfig.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		464F8E684D0999C71DC5F946 = {
+			isa = PBXGroup;
+			children = (
+				F050334E7FAB3DDB2C934D87 /* MeshTalk */,
+				4924F1E6D866A4EBC963C7A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46E9874ECDAC686ADCE0BB36 /* Haptics */ = {
+			isa = PBXGroup;
+			children = (
+				F849CE54FBDD11D85805EFAF /* HapticManager.swift */,
+			);
+			path = Haptics;
+			sourceTree = "<group>";
+		};
+		4924F1E6D866A4EBC963C7A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE26A96DAC34C3DF5AAB9B13 /* MeshTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EDFA6B036FF380182B63DDE /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				59D735AB4E928111889A4FBC /* DesignSystem.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		55ACB6F171851A5D07B9D3AD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8C43DFDC74B28D1953BD1F37 /* MeshBridgeClient.swift */,
+				53281635661B806145C21E55 /* WebSocketClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		603917778487232ACBD4B487 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FEBC4B7434758CD9FA13E4D /* ControlBarView.swift */,
+				8BF377D7D062CD989DFA1E9A /* OnboardingView.swift */,
+				63101C7B55FE65FF84CE7BA3 /* OrganicWaveView.swift */,
+				6FC7086E8BC13E75720E902A /* PeerIndicatorView.swift */,
+				6E0A538ADF4ED199E71DD4CF /* PTTButtonView.swift */,
+				C7129BD57FEC1ED1BE79F989 /* SettingsView.swift */,
+				D0F7A9671AF25438E90CE1D2 /* WaveformView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		603C1D629E9F67F5AD7635DA /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				B5A0927092BBF1CC9BFD6148 /* AudioEngine.swift */,
+				49C8B4BF039EECA179715BF1 /* OpusCodec.swift */,
+				D3D880C1135F0A90795E6A12 /* VoxDetector.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		F050334E7FAB3DDB2C934D87 /* MeshTalk */ = {
+			isa = PBXGroup;
+			children = (
+				CD24A827EAD3CB36FD8833F3 /* Assets.xcassets */,
+				D7EDC34DA25199B0521CB5CB /* ContentView.swift */,
+				68C124F6919017075673C5BE /* Info.plist */,
+				9B85BC65D4748AE7A495B400 /* MeshTalkApp.swift */,
+				603C1D629E9F67F5AD7635DA /* Audio */,
+				46E9874ECDAC686ADCE0BB36 /* Haptics */,
+				4401E3775BC0ED583C418A99 /* Models */,
+				55ACB6F171851A5D07B9D3AD /* Network */,
+				3A0595C340C8DF68C3230729 /* Service */,
+				4EDFA6B036FF380182B63DDE /* Theme */,
+				603917778487232ACBD4B487 /* Views */,
+			);
+			path = MeshTalk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08AEA5D5EFF400C8D0FDFD8F /* MeshTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA24ED7D101E6B70F80C92C2 /* Build configuration list for PBXNativeTarget "MeshTalk" */;
+			buildPhases = (
+				CF6DA5FAB99FEAADA1FAD798 /* Sources */,
+				2DBD516A442B12A59670137E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeshTalk;
+			packageProductDependencies = (
+			);
+			productName = MeshTalk;
+			productReference = CE26A96DAC34C3DF5AAB9B13 /* MeshTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F8A0588987463DC7BF343B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					08AEA5D5EFF400C8D0FDFD8F = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 639EBCB3C14F6AA754C98E8F /* Build configuration list for PBXProject "MeshTalk" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 464F8E684D0999C71DC5F946;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4924F1E6D866A4EBC963C7A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08AEA5D5EFF400C8D0FDFD8F /* MeshTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DBD516A442B12A59670137E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BBD5BA61B55077A9DFDBEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF6DA5FAB99FEAADA1FAD798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8BDF05D5C8DBE57092C799 /* AudioEngine.swift in Sources */,
+				9E77940B86AAAEFA8D5B74BF /* BackgroundAudioManager.swift in Sources */,
+				3DA51DF6E60A02D831FF4CB5 /* ContentView.swift in Sources */,
+				B881DCE139747143B363DA1B /* ControlBarView.swift in Sources */,
+				078BC3A419470E0DD7DEA74C /* DesignSystem.swift in Sources */,
+				0872CA5ABE40A2F3680945FE /* HapticManager.swift in Sources */,
+				CB2D0964AFD4CA31BF7A6581 /* MeshBridgeClient.swift in Sources */,
+				7B405E34A8BA1CF24793F7F1 /* MeshConfig.swift in Sources */,
+				2B9DFC901A1ADD1B39D73146 /* MeshTalkApp.swift in Sources */,
+				EEABA85EADE61DBB5E20C4DD /* OnboardingView.swift in Sources */,
+				C2CB31846FF9D182A6526434 /* OpusCodec.swift in Sources */,
+				D07E4B262DB8293022488AE3 /* OrganicWaveView.swift in Sources */,
+				481A18FA8428C9EE3A57803B /* PTTButtonView.swift in Sources */,
+				79B5E9D7B515D80C9F716DD2 /* PeerIndicatorView.swift in Sources */,
+				5629495D0FAA4EE85224CA63 /* SettingsView.swift in Sources */,
+				4A3DDD6E5CBACF7CE01DF51E /* VoxDetector.swift in Sources */,
+				A7C2E0C524EF4815211C120A /* WaveformView.swift in Sources */,
+				6065C75985D4D4EE16AB66C0 /* WebSocketClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4BB00F637D73BBAD08C42D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = MeshTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openclaw.meshtalk;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		79C54CF23D2CC98A9F871607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = MeshTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openclaw.meshtalk;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		94A6F9D0C09D986D9F36AFC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		B90301B79A62762D96C3A4C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		639EBCB3C14F6AA754C98E8F /* Build configuration list for PBXProject "MeshTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90301B79A62762D96C3A4C6 /* Debug */,
+				94A6F9D0C09D986D9F36AFC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA24ED7D101E6B70F80C92C2 /* Build configuration list for PBXNativeTarget "MeshTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB00F637D73BBAD08C42D9D /* Debug */,
+				79C54CF23D2CC98A9F871607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F8A0588987463DC7BF343B4 /* Project object */;
+}
