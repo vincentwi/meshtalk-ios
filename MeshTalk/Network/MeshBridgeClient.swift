@@ -78,9 +78,8 @@ final class MeshBridgeClient: ObservableObject {
     }
 
     func switchChannel(_ newChannel: String) {
-        disconnect()
         channel = newChannel
-        connect(onAudio: onAudioReceived ?? { _ in })
+        sendControl(["cmd": "switch", "channel": newChannel])
     }
 
     func sendAudio(_ data: Data) {
@@ -120,7 +119,7 @@ final class MeshBridgeClient: ObservableObject {
     }
 
     private func handleControlMessage(_ json: [String: Any]) {
-        if let type = json["type"] as? String {
+        if let type = json["event"] as? String {
             switch type {
             case "peers":
                 if let peerList = json["peers"] as? [[String: Any]] {
@@ -152,16 +151,34 @@ final class MeshBridgeClient: ObservableObject {
                         let peer = Peer(id: id, user: user, joinedAt: Date())
                         peers.append(peer)
                     }
-                    peerCount = peers.count
+                    // Bridge sends "peer_count" as integer alongside join events
+                    if let pc = json["peer_count"] as? Int {
+                        peerCount = pc
+                    } else {
+                        peerCount = peers.count
+                    }
                     print("[Bridge] Peer joined: \(user)")
                 }
             case "leave":
                 if let user = json["user"] as? String {
                     let id = (json["id"] as? String) ?? user
                     peers.removeAll { $0.id == id || $0.user == user }
-                    peerCount = peers.count
+                    // Bridge sends "peer_count" as integer alongside leave events
+                    if let pc = json["peer_count"] as? Int {
+                        peerCount = pc
+                    } else {
+                        peerCount = peers.count
+                    }
                     print("[Bridge] Peer left: \(user)")
                 }
+            case "switched":
+                if let newCh = json["channel"] as? String {
+                    channel = newCh
+                    print("[Bridge] Channel switched to: \(newCh)")
+                }
+            case "pong":
+                // Keepalive response — no action needed
+                break
             default:
                 print("[Bridge] Unknown control: \(type)")
             }

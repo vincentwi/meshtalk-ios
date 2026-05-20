@@ -137,8 +137,9 @@ final class BackgroundAudioManager: ObservableObject {
             }
         }
 
-        // Start audio engine
+        // Start audio engine (defensive stop first to avoid double-start)
         do {
+            audioEngine.stop()
             try audioEngine.start { [weak self] pcmData in
                 Task { @MainActor in
                     guard let self = self, self.isTransmitting else { return }
